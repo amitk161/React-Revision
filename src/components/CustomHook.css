@@ -1,0 +1,29 @@
+.main-div {
+    font-family: Aria, sans-serif;
+    margin: 20px;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin: 40px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.btn, .btn-container {
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: grey;
+}
